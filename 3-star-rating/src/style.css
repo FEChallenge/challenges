@@ -1,7 +1,46 @@
+@import url('./reset.css');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* write your CSS here */
+body {
+  background-color: #d8ecfd;
+}
+
+#main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 800px;
+  height: 400px;
+  margin: 200px auto;
+  padding: 70px 80px 0 80px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.star-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.description {
+  position: absolute;
+  top: 290px;
+  left: 400px;
+  transform: translateX(-50%);
+  width: 600px;
+  font-size: 1.2rem;
+}
