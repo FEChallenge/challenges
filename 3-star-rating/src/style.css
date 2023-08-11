@@ -4,4 +4,62 @@
   box-sizing: border-box;
 }
 
-/* write your CSS here */
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: #e6e9fb;
+  display: flex;
+  align-items: center;
+}
+
+.star-container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.active {
+  fill: #facc15;
+}
+
+.inactive {
+  fill: #e2e8f0;
+}
+
+.rating-form {
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  gap: 32px;
+  width: 775px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 10px 10px 4px 0px rgba(255, 255, 255, 0.4);
+  margin: auto auto;
+}
+
+.rating-header {
+  width: 458px;
+  color: #0f172a;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.rating-message {
+  color: #374151;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
